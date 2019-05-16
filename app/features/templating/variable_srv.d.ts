@@ -21,4 +21,5 @@ export declare class VariableSrv {
     setOptionFromUrl(variable: any, urlValue: any): any;
     setOptionAsCurrent(variable: any, option: any): any;
     updateUrlParamsWithCurrentVariables(): void;
+    setAdhocFilter(options: any): void;
 }
